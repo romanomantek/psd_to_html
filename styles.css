@@ -20,6 +20,16 @@ color: green;
 #contact_client-section {
     color: lightsalmon;
 }
+/*Footer - Start - Romano */
 footer {
-    color: blueviolet;
+    color: white;
+
 }
+.footerbox{
+    background-image: url("images/bgk-footer.png");
+    justify-content: flex-end;
+}
+.tajam{
+    color:darkslateblue;
+}
+/*Footer - Ende - Romano */
