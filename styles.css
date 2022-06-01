@@ -23,13 +23,77 @@ color: green;
 /*Footer - Start - Romano */
 footer {
     color: white;
-
+    border: white solid;
 }
 .footerbox{
     background-image: url("images/bgk-footer.png");
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    align-content: flex-end;
+}
+/* Footer links*/
+
+.footl{
+
+    border: yellow solid;
+
+
+}
+.logo{
+    border: red solid;
 }
 .tajam{
     color:darkslateblue;
+    border: red solid;
+}
+.lorem{
+    border: red solid;
+}
+/* Footer Mitte */
+.footm{
+
+    border: yellowgreen solid;
+
+}
+.ourstudio{
+    border: red solid;
+}
+.big{
+    border: red solid;
+}
+.Ruko{
+    border: red solid;
+}
+.phone{
+    border: red solid;
+}
+.number{
+    border: red solid;
+}
+/* Footer rechts */
+.footr{
+
+    border: darkgray solid;
+
+}
+.stay{
+    border: red solid;
+}
+.subscribe{
+    border: red solid;
+}
+.paper122{
+    border: red solid;
+}
+/*Footer Bodenleiste*/
+.footerbottom{
+    border: red solid;
+}
+.footlb{
+    border: red solid;
+}
+.copyright{
+    border: red solid;
 }
 /*Footer - Ende - Romano */
