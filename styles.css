@@ -61,7 +61,7 @@
         margin-top: 1.4rem;
     }
     
-    @media only screen and (max-width: 900px) {
+    @media only screen and (max-width: 940px) {
         #expertise-section .wrapper5 #b1,
         #b3,
         #b5 {
@@ -81,6 +81,9 @@
         #expertise-section .wrapper5 #b1,
         #b2 {
             margin-top: 1.4rem;
+        }
+        #expertise-section .wrapper5 #b3 {
+            margin-top: 0;
         }
     }
     
