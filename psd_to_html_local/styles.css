@@ -1,0 +1,158 @@
+* {
+  font-family: Open Sans;
+}
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+h1 {
+  font-size: 28px;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 18px;
+}
+p {
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none !important;
+}
+header {
+  width: 100%;
+}
+
+.header-area {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 100;
+  height: 80px;
+}
+
+.header-area .main-nav {
+  min-height: 80px;
+}
+
+.header-area .logo {
+  float: left;
+  margin: 15px;
+}
+
+.header-area .main-nav .nav {
+  float: right;
+  margin-top: 27px;
+  margin-right: 0px;
+  background-color: transparent;
+  position: relative;
+  z-index: 999;
+}
+
+.header-area .main-nav .nav li {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.header-area .main-nav .nav li a {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 13px;
+  color: #fff;
+  text-transform: uppercase;
+  height: 40px;
+  line-height: 40px;
+}
+.header-area .main-nav .nav li a:hover {
+  color: #62cec5;
+}
+
+#hero-section {
+  min-height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: normal;
+  background: url(images/bgk-header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+#our_story-section {
+  min-height: 370px;
+}
+
+#watch-section {
+  min-height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: normal;
+  background: url(images/bgk-middle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+.container {
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.container p {
+  padding: 5px;
+}
+.more {
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: 1px solid #62cec5;
+  color: #62cec5;
+}
+
+.container-story {
+  display: flex;
+  align-content: space-between;
+  padding: 0 20%;
+}
+.container-story p {
+  padding: 5px;
+}
+
+.left {
+  display: flex;
+  padding: 25px;
+  align-items: center;
+}
+.right {
+  padding: 25px;
+}
+
+/* Media Query für Bilschirmbreite unter 640px*/
+
+@media only screen and (max-width: 640px) {
+  #hero-section {
+    padding-top: 200px;
+    padding-bottom: 100px;
+  }
+  .left,
+  .right {
+    display: inline-block;
+    padding: 25px 0;
+    width: 100%;
+  }
+}
