@@ -1,25 +1,201 @@
-* {margin: 0;
-}
-nav {
-    color: red;
-}
-#hero-section {
-    color: blue;
-}
-#our_story-section{
-color: green;
-}
-#watch-section { color: darkred;
-}
-#expertise-section {
-    color: fuchsia;
-}
-#team-section {
-    color: yellowgreen;
-}
-#contact_client-section {
-    color: lightsalmon;
-}
-footer {
-    color: blueviolet;
-}
+    /*fonts für team-section und contact-client-section*/
+    
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display:wght@600&display=swap');
+    * {
+        margin: 0;
+    }
+    
+    nav {
+        color: red;
+    }
+    
+    #hero-section {
+        color: blue;
+    }
+    
+    #our_story-section {
+        color: green;
+    }
+    
+    #watch-section {
+        color: darkred;
+    }
+    
+    #expertise-section {
+        color: fuchsia;
+    }
+    /* expertise-section */
+    
+    #expertise-section {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #expertise-section .wrapper5 {
+        width: 60rem;
+        display: flex;
+        font-family: 'Playfair Display', serif;
+        color: rgb(64, 62, 75);
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 2.4rem;
+    }
+    
+    #expertise-section .wrapper5 .top5 {
+        width: 100%;
+        text-align: center;
+    }
+    
+    #expertise-section .wrapper5 #b1,
+    #b2,
+    #b4,
+    #b5 {
+        border-right: 1px solid rgb(235, 235, 235);
+    }
+    
+    #expertise-section .wrapper5 #b1,
+    #b2,
+    #b3 {
+        border-bottom: 1px solid rgb(235, 235, 235);
+        margin-top: 1.4rem;
+    }
+    
+    @media only screen and (max-width: 900px) {
+        #expertise-section .wrapper5 #b1,
+        #b3,
+        #b5 {
+            border-right: 1px solid rgb(235, 235, 235);
+        }
+        #expertise-section .wrapper5 #b1,
+        #b2,
+        #b3,
+        #b4 {
+            border-bottom: 1px solid rgb(235, 235, 235);
+        }
+        #expertise-section .wrapper5 #b2,
+        #b4,
+        #b6 {
+            border-right: none;
+        }
+        #expertise-section .wrapper5 #b1,
+        #b2 {
+            margin-top: 1.4rem;
+        }
+    }
+    
+    #expertise-section .wrapper5 .box5 {
+        width: 16.375rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding: 1.4rem 1.4rem;
+    }
+    
+    #expertise-section .wrapper5 .box5 .img {
+        height: 3rem;
+        padding-bottom: 2rem;
+    }
+    
+    #expertise-section .wrapper5 .box5 h4,
+    p {
+        font-family: 'Open Sans', sans-serif;
+    }
+    /* team-section */
+    
+    #team-section .wrapper6 {
+        width: 100%;
+        height: 100%;
+        background-image: url(/images/bgk-header.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #team-section .container {
+        height: 100%;
+        width: 60rem;
+        font-family: 'Playfair Display', serif;
+    }
+    
+    #team-section .container h2 {
+        color: rgb(243, 243, 245);
+    }
+    
+    #team-section .container h3 {
+        color: rgb(243, 243, 245);
+    }
+    
+    #team-section .container .top {
+        height: 11.625rem;
+        text-align: center;
+        margin-top: 100px;
+    }
+    
+    .linie {
+        border-bottom: 1px solid rgb(235, 235, 235);
+        width: 3.125rem;
+        margin: 0 auto;
+        height: 1.25rem;
+    }
+    
+    #team-section .container .middle {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    #team-section .container .middle div[class*="box"] {
+        width: 220px;
+        height: 19.375rem;
+    }
+    
+    #team-section .container .middle div[class="up"] {
+        background-color: white;
+        height: 230px;
+    }
+    
+    #team-section .container .middle div[class="down"] {
+        border: 1px solid rgb(118, 120, 138);
+        height: 78px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    #team-section .container .middle div[class="down"] h4 {
+        color: rgb(243, 243, 245);
+    }
+    
+    #team-section .container .middle div[class="down"] h5 {
+        color: rgb(152, 152, 169);
+    }
+    
+    #team-section .container .bottom {
+        height: 13.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    #team-section .container .bottom button {
+        border: 1px solid rgb(104, 218, 205);
+        color: rgb(104, 218, 205);
+        text-transform: uppercase;
+        padding: 15px;
+        font-weight: bold;
+        font-size: larger;
+        background-color: transparent;
+        margin-top: 1.5625rem;
+    }
+    
+    #contact_client-section {
+        color: lightsalmon;
+    }
+    
+    footer {
+        color: blueviolet;
+    }
